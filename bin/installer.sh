@@ -59,7 +59,10 @@ if !(locale -a | grep -E "en_US.utf8|en_US.UTF-8" > /dev/null); then
  echo "en_US.UTF-8 is not found. Install locales."
  apt install locales
  locale-gen en_US.UTF-8
- source ${HOME}/.bash_profile
 fi
+
+# Install vim-plug
+curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 
