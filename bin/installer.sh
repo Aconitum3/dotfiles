@@ -15,7 +15,11 @@ fi
 # Install NEOVIM
 if !(type "nvim" > /dev/null 2>&1); then
   echo "neovim is not found. Install neovim."
-  apt install neovim
+  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+  chmod u+x nvim.appimage
+  ./nvim.appimage
+  mv squashfs-root /
+  ln -s /squashfs-root/AppRun /usr/bin/nvim
 fi
 
 # Backup dotfiles
