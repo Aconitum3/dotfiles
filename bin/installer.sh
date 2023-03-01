@@ -70,9 +70,3 @@ curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --c
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 
-# Font Activate
-if !(type "fontconfig" > /dev/null 2>&1); then
-  echo "fonconfig is not found. Install fontconfig."
-  apt install fontconfig
-fi
-fc-cache -fv
