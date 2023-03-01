@@ -32,7 +32,7 @@ if [ ! -d $BACKUPDIR ]; then
   cd $HOME
   for f in .??*; do
     cp "$f" $BACKUPDIR
-    echo "$f backed up"
+    echo "$f backed up."
   done
 fi
 
