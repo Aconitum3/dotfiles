@@ -13,4 +13,4 @@ This installer still only supports Debian. MacOS will be supported someday.
 
 If you run `nvim` installed with this installer in A Docker Container, file type icons may be garbled. You need to check your Terminal settings and set the appropriate Nerd Fonts.
 
-Recommnd Nerd Fonts: [yuru7/HackGen](https://github.com/yuru7/HackGen)
+Recommended Nerd Fonts: [yuru7/HackGen](https://github.com/yuru7/HackGen)
