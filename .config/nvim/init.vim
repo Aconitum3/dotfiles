@@ -31,4 +31,5 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 let mapleader = '\<Space>'
 let g:fern#default_hidden = 1
 let g:fern#renderer = 'nerdfont'
+let g:fern#renderer#nerdfont#indent_markers = 1
 nnoremap <S-f> :Fern . -reveal=% -drawer -toggle -width=30<CR>
