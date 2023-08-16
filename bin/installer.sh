@@ -70,3 +70,10 @@ curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --c
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 
+# Install prerequisite packages for nvim plugins
+
+# treesitter, telescope-fzf-native 
+apt install build-essential
+
+# telescope-fzf-native
+apt install fzf
