@@ -4,7 +4,7 @@
 ```bash
 $ curl -sO https://raw.githubusercontent.com/Aconitum3/dotfiles/main/bin/installer.sh
 $ chmod u+x ./installer.sh
-$ ./installer.sh
+$ sudo -E ./installer.sh
 ```
 
 RUN `:PlugInstall` in the first time you run `nvim`.
