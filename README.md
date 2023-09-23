@@ -3,6 +3,7 @@
 ## How to use
 ```bash
 curl -sO https://raw.githubusercontent.com/Aconitum3/dotfiles/main/bin/installer.sh
+curl -sO https://raw.githubusercontent.com/Aconitum3/dotfiles/main/bin/dotsetup.sh
 chmod u+x ./installer.sh
 sudo bash ./installer.sh
 bash ./dotsetup.sh
